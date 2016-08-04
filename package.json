@@ -1,0 +1,22 @@
+{
+  "name": "img-abst",
+  "version": "1.0.0",
+  "description": "image abstraction layer - fcc",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "image",
+    "abstraction",
+    "layer",
+    "fcc"
+  ],
+  "author": "Rusticman",
+  "license": "ISC",
+  "dependencies": {
+    "bing.search": "^1.0.1",
+    "dotenv": "^2.0.0",
+    "express": "^4.14.0"
+  }
+}
