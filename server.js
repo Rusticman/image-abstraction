@@ -19,6 +19,7 @@ var MongoClient = mongodb.MongoClient;
 app.set('port',(process.env.PORT || 5000));
 app.use(express.static('public'));
 
+//connect to database
 MongoClient.connect(url,function(err,db){
 
   if(err){
