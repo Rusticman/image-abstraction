@@ -5,7 +5,7 @@ var route = require('./app.js')
 require('dotenv').config({silent:true});
 
 //mongodb mLab URI
-var url = (process.env.MONGOLAB_URI);
+var url = process.env.MONGOLAB_URI;
 
 
 //function

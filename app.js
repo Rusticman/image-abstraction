@@ -5,7 +5,7 @@ var util = require('util');
 require('dotenv').config({silent:true});
 
 //bing account key
-var bingNr = process.env.BING_ACC_NR;
+var bingNr = process.env.BING_ACC_NR ;
 //bing search function with key
 var search = new Search(bingNr);
 
