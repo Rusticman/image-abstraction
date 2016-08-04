@@ -9,7 +9,7 @@ var bingNr = process.env.BING_ACC_NR ;
 //bing search function with key
 var search = new Search(bingNr);
 
-
+//export function to server.js
 module.exports = function(app,db){
 
 var collection = db.collection('img_abstraction');

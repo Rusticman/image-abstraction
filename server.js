@@ -28,6 +28,7 @@ MongoClient.connect(url,function(err,db){
   else{
     console.log('Successfully connected to the database');
 
+    //route function in app.js
     route(app,db);
 
   }
